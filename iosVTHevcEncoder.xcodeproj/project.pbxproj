@@ -35,7 +35,7 @@
 		093861661F0E7D3B008B0578 /* vthevcdecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vthevcdecoder.h; sourceTree = "<group>"; };
 		093861671F0E7D3B008B0578 /* vthevcdecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vthevcdecoder.m; sourceTree = "<group>"; };
 		093861691F0E7E8D008B0578 /* video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
-		0953CC2C1E372ABE00294EF9 /* firstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0953CC2C1E372ABE00294EF9 /* iosVTHevcEncoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosVTHevcEncoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0953CC301E372ABE00294EF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0953CC321E372ABE00294EF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0953CC331E372ABE00294EF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		0953CC231E372ABE00294EF9 = {
 			isa = PBXGroup;
 			children = (
-				0953CC2E1E372ABE00294EF9 /* firstapp */,
+				0953CC2E1E372ABE00294EF9 /* iosVTHevcEncoder */,
 				0953CC2D1E372ABE00294EF9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,12 +81,12 @@
 		0953CC2D1E372ABE00294EF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0953CC2C1E372ABE00294EF9 /* firstapp.app */,
+				0953CC2C1E372ABE00294EF9 /* iosVTHevcEncoder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0953CC2E1E372ABE00294EF9 /* firstapp */ = {
+		0953CC2E1E372ABE00294EF9 /* iosVTHevcEncoder */ = {
 			isa = PBXGroup;
 			children = (
 				09C354791F12257E0055EE6B /* AAPLEAGLLayer.h */,
@@ -120,7 +120,7 @@
 				093861661F0E7D3B008B0578 /* vthevcdecoder.h */,
 				093861671F0E7D3B008B0578 /* vthevcdecoder.m */,
 			);
-			path = firstapp;
+			path = iosVTHevcEncoder;
 			sourceTree = "<group>";
 		};
 		0953CC2F1E372ABE00294EF9 /* Supporting Files */ = {
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0953CC2B1E372ABE00294EF9 /* firstapp */ = {
+		0953CC2B1E372ABE00294EF9 /* iosVTHevcEncoder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0953CC431E372ABE00294EF9 /* Build configuration list for PBXNativeTarget "firstapp" */;
+			buildConfigurationList = 0953CC431E372ABE00294EF9 /* Build configuration list for PBXNativeTarget "iosVTHevcEncoder" */;
 			buildPhases = (
 				0953CC281E372ABE00294EF9 /* Sources */,
 				0953CC291E372ABE00294EF9 /* Frameworks */,
@@ -146,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = firstapp;
+			name = iosVTHevcEncoder;
 			productName = firstapp;
-			productReference = 0953CC2C1E372ABE00294EF9 /* firstapp.app */;
+			productReference = 0953CC2C1E372ABE00294EF9 /* iosVTHevcEncoder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,12 +162,12 @@
 				TargetAttributes = {
 					0953CC2B1E372ABE00294EF9 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9FT56MF587;
+						DevelopmentTeam = Z6436LX9A5;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0953CC271E372ABE00294EF9 /* Build configuration list for PBXProject "firstapp" */;
+			buildConfigurationList = 0953CC271E372ABE00294EF9 /* Build configuration list for PBXProject "iosVTHevcEncoder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0953CC2B1E372ABE00294EF9 /* firstapp */,
+				0953CC2B1E372ABE00294EF9 /* iosVTHevcEncoder */,
 			);
 		};
 /* End PBXProject section */
@@ -347,8 +347,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9FT56MF587;
-				INFOPLIST_FILE = firstapp/Info.plist;
+				DEVELOPMENT_TEAM = Z6436LX9A5;
+				INFOPLIST_FILE = "$(SRCROOT)/iosVTHevcEncoder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanli.textyy.firstapp;
@@ -360,8 +360,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9FT56MF587;
-				INFOPLIST_FILE = firstapp/Info.plist;
+				DEVELOPMENT_TEAM = Z6436LX9A5;
+				INFOPLIST_FILE = "$(SRCROOT)/iosVTHevcEncoder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanli.textyy.firstapp;
@@ -372,7 +372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0953CC271E372ABE00294EF9 /* Build configuration list for PBXProject "firstapp" */ = {
+		0953CC271E372ABE00294EF9 /* Build configuration list for PBXProject "iosVTHevcEncoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0953CC411E372ABE00294EF9 /* Debug */,
@@ -381,7 +381,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0953CC431E372ABE00294EF9 /* Build configuration list for PBXNativeTarget "firstapp" */ = {
+		0953CC431E372ABE00294EF9 /* Build configuration list for PBXNativeTarget "iosVTHevcEncoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0953CC441E372ABE00294EF9 /* Debug */,

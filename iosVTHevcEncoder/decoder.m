@@ -113,7 +113,7 @@
                                                                      parameterSetPointers,
                                                                      parameterSetSizes,
                                                                      4, //nal start code size
-                                                                     &hevcFormatDescription);
+                                                                    NULL, &hevcFormatDescription);
     }
     
     if (status == kCMBlockBufferNoErr) {
